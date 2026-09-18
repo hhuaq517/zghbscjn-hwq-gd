@@ -1,0 +1,10 @@
+# 中公海报生成器 · 运行依赖
+# 安装：pip install -r requirements.txt
+#
+# 已在 Python 3.13 + 下列版本实测通过（2026-09）
+
+pillow>=10.0        # 画图核心：渐变、圆角、文字排版、图层合成
+numpy>=1.24         # 背景渐变与径向光晕的像素级计算
+pytoshop>=1.2       # 写出分层 PSD（每元素独立图层）
+psd-tools>=1.9      # 校验 PSD 图层结构是否完整可编辑
+six>=1.16           # pytoshop 的兼容依赖

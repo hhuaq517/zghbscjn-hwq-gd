@@ -1,0 +1,102 @@
+# ---------------- Python ----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+env/
+
+# 测试与覆盖率
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# ---------------- 运行产物 ----------------
+# 海报成品（2 JPG + 1 PSD）不入库
+out/
+output/
+海报成品/
+海报成品_*/
+*.jpg
+*.jpeg
+*.png
+*.psd
+*.tif
+*.tiff
+
+# 例外：assets/ 下的素材图必须入库（logo 等）
+!**/assets/*.png
+!**/assets/*.jpg
+!**/assets/*.svg
+
+# 预览缩略图
+zg_preview_*.jpg
+preview_*.jpg
+
+# 临时配置（含真实公告与定价数据，不入库）
+我的海报*.json
+海报配置*.json
+cfg*.json
+!example_*.json
+
+# ---------------- 编辑器 / IDE ----------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------------- macOS ----------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+TemporaryItems
+
+# ---------------- Windows ----------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---------------- 日志与压缩包 ----------------
+*.log
+*.zip
+*.tar.gz
+*.rar
+
+# ---------------- 敏感信息 ----------------
+.env
+.env.*
+*.pem
+*.key
+credentials.json
