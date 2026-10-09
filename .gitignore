@@ -50,10 +50,18 @@ output/
 *.tif
 *.tiff
 
-# 例外：assets/ 下的素材图必须入库（logo 等）
+# 例外：assets/ 下的素材图必须入库（logo / 小鹿形象等）
+# ⚠️ 必须用 ** 跨目录通配，`!**/assets/*.png` 只放行 assets 直属一层，
+#    放行不到 assets/xiaolu/*.png（2026-09-18 踩过：logo 被静默吞掉）
+!**/assets/**/*.png
+!**/assets/**/*.jpg
+!**/assets/**/*.svg
 !**/assets/*.png
 !**/assets/*.jpg
 !**/assets/*.svg
+
+# 但技能运行时会写轮换状态，必须入库（是技能的一部分，不是产物）
+!**/assets/rotation.json
 
 # 预览缩略图
 zg_preview_*.jpg

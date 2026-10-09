@@ -22,13 +22,14 @@ SOFTWARE.
 
 ---
 
-NOTE 1 — Trademark assets
+NOTE 1 — Trademark and design assets
 
-The image bundled at `zhonggong-poster/assets/logo.png` is a trademark asset of
-its respective owner (广东中公教育). It is NOT covered by the MIT License above.
-It is included solely so the rendering engine can produce compliant output, and
+The images bundled under `zhonggong-poster/assets/` — `zhonggong-logo.png` and the
+mascot artwork in `assets/xiaolu/` — are trademark and design assets of their
+respective owner (广东中公教育). They are NOT covered by the MIT License above.
+They are included solely so the rendering engine can produce compliant output, and
 may only be used for the owner's own promotional materials. Do not extract,
-redistribute, resell, or repurpose it separately.
+redistribute, resell, or repurpose them separately.
 
 NOTE 2 — Fonts
 
